@@ -43,7 +43,7 @@ var navigationLink = document.getElementById('navigation');
 navigationLink.href="http://bbc.co.uk";
 navigationLink.textContent="BBC News";
 
-// Page Header
+// Change the Page Header
 
 var header = document.getElementById('page-header');
 
