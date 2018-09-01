@@ -33,3 +33,18 @@ button4.addEventListener('mouseout', function() {
     //action goes here
     document.body.style.backgroundColor = "orange";
 })
+
+// Navigation link
+
+// access element and assign to a var
+var navigationLink = document.getElementById('navigation');
+
+// using the var modify properties and values
+navigationLink.href="http://bbc.co.uk";
+navigationLink.textContent="BBC News";
+
+// Page Header
+
+var header = document.getElementById('page-header');
+
+header.textContent = "Hello World";
